@@ -29,3 +29,5 @@ sentence-transformers
 #Ollama
 langchain-ollama
 
+# Streamlit for ui
+Streamlit
