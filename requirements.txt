@@ -1,6 +1,7 @@
 # LangChain Core
 langchain
 langchain-core
+Langchain-community
 
 # OpenAI Integration
 langchain-openai
@@ -31,3 +32,6 @@ langchain-ollama
 
 # Streamlit for ui
 Streamlit
+
+#Pydantic for strcutured output
+Pydantic
