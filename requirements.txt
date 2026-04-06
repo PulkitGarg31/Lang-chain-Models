@@ -35,3 +35,15 @@ Streamlit
 
 #Pydantic for strcutured output
 Pydantic
+
+#pypdf - installation needed for pdf loader
+pypdf
+
+# For WebBaseLoader
+beautifulsoup4
+
+langchain-experimental
+
+Chromadb
+
+Wikipedia
