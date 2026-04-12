@@ -47,3 +47,9 @@ langchain-experimental
 Chromadb
 
 Wikipedia
+
+# Chat Model for YouTube
+youtube-transcript-api
+tiktoken
+fastapi
+uvicorn
