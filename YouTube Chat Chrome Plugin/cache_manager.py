@@ -4,7 +4,8 @@ import time
 
 MAX_CACHE_DAYS = 7
 MAX_CACHE_SIZE_MB = 500
-CACHE_DIR = "./chroma_db"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CACHE_DIR = os.path.join(BASE_DIR, "chroma_db")
 
 def get_folder_size_mb(path: str) -> float:
     total = sum(

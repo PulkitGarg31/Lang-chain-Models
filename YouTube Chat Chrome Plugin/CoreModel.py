@@ -43,7 +43,9 @@ def load_transcript(video_id : str) -> str:
 
 def build_vectorstore(text: str, video_id: str) -> Chroma:
     """Split text into chunks and store embeddings in FAISS."""
-    persist_dir = f"./chroma_db/{video_id}"
+    
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    persist_dir = os.path.join(BASE_DIR, "chroma_db", video_id)
     
     embeddings = GoogleGenerativeAIEmbeddings(model='models/gemini-embedding-001')
     
